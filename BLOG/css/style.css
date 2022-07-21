@@ -5,12 +5,20 @@ body {
     font-family: 'Oswald', sans-serif;
     background-color: rgb(189, 189, 189);
 }
-
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+}
 .container {
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 1080px;
+    width: 1080px;
 }
 
+.columns-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
 .light {
     font-weight: 300;
@@ -37,6 +45,10 @@ body {
 .btn-blue {
     background-color: rgb(99, 102, 241);
     color: white;
+}
+
+.btn-container {
+
 }
 
 .btn-blue:hover {
